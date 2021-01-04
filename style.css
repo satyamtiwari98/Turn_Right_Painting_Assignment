@@ -1,0 +1,1220 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body, html {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, b {
+  font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+}
+
+
+textarea, select {
+  font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+}
+
+
+
+ul {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+li {
+    display:inline;
+    padding: 20px;
+}
+
+
+li a {
+    text-decoration: none;
+}
+
+
+.banner {
+    display: flex;
+    align-self: center;
+    height: 100vh;
+    width: 100%;
+    background-image:url(http://rightturntn.com/wp-content/uploads/2018/01/right-turn-home-banner.jpg)!important;
+    text-align: center;
+}
+
+
+.innerbanner {
+    text-align: center;
+    height: 400px;
+    width: 600px;    
+    margin: auto ;
+    background-color:rgba(255,255,255,0.51);
+    border-color: #ffffff;
+    padding-top: 40px!important;
+    padding-right: 0px!important;
+    padding-bottom: 40px!important;
+    padding-left: 0px!important;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+}
+
+
+#innerbannerimg {
+    width: 500px;
+}
+
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6!important;
+    color:#e09e0f!important;
+    text-align: center;
+    height: 200px;
+}
+
+
+.sec1 > h1 {
+    padding-left: 400px;
+}
+
+
+
+#headh1 {
+  font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+  font-weight: 700;
+  font-size: 51px;
+  text-shadow: 0em 0.1em 0.1em rgba(216, 195, 7, 0.38);
+  text-align: center;
+  padding: 20px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 70px;
+    grid-gap: 60px;
+    margin-bottom: 0;
+}
+
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+
+ }
+
+
+.container {
+       width: 100%;
+       height: auto;
+}
+
+
+.grid1 {
+      width: 16%;
+      height: 100vh;
+      float: left;
+      background-image:url(Wall-Trim-Painting-img.jpg);
+}
+
+
+.grid2 {
+    width: 16%;
+    float: left;
+}
+
+
+.grid3 {
+    width: 16%;
+    float: left;
+}
+
+
+.grid4 {
+    width: 16%;
+    float: left;
+}
+
+
+.grid5 {
+    width: 16%;
+    float: left;
+}
+
+
+.grid6 {
+    width: 16%;
+    float: left;
+}
+.mainindex{
+  margin:auto;
+  height:80px;
+  padding:20px;
+}
+
+.mainindex a{
+  text-decoration: none;
+  padding: 30px;
+  color:#000000;
+  font-size: 25px;
+  
+}
+.mainindex a:hover{
+  color: grey;
+}
+.main1 {
+    float: right;
+    padding: 40px;
+    margin-left: 140px;
+}
+
+
+.main1 a {
+    text-decoration: none;
+    padding: 30px;
+    color:black;
+    font-size: 30px;
+}
+
+
+a:link {
+    color: black;
+}
+
+
+a:visited {
+    color: black;
+}
+
+
+a:hover {
+    color: grey;
+}
+
+
+a:active {
+    color:orange;
+}
+
+
+#navimg {
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:200px; 
+    height:70px;
+}
+.headerlink{
+  color: black;
+}
+.headerlink:hover{
+  color: #666;
+}
+
+.reqtopsec {
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: overlay;
+    background:linear-gradient(0deg,rgba(10, 10, 10, 0.76),rgba(5, 5, 5, 0.938)),url(http://rightturntn.com/wp-content/uploads/2018/01/about-right-turn-banner.jpg);
+}
+
+
+.topsec {
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(Quote.jpg);
+    
+}
+
+
+.reqtopsec > h1 {
+    color:white;
+    text-align: center;
+    padding-top: 350px;
+    font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+.topsec > h1 {
+    color:white;
+    text-align: center;
+    padding-top: 350px;
+    font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+
+
+.formh1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+}
+
+
+.formh11 {
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+}
+
+
+form {
+      display: block;
+      text-align: center;
+      width: 100%; 
+
+  }
+
+.same  {
+    width: 28%;
+    height: 20px;
+    padding: 16px;
+    margin: 10px;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #999;
+    background-color: #eee;
+    font-size: 14px;
+  }
+
+ .diff {
+      width: 60%;
+      height: 20px;
+      padding: 16px ;
+      border: none;
+      margin: 10px;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      color: #999;
+      background-color: #eee;
+      font-size: 14px;
+ }
+#textareaf{
+  height:40px
+}
+
+ #sign {
+     float: right;
+     margin-right: 260px;
+     width: 100px;
+     height: 45px;
+     border: 2px solid orange;
+     color: orange;
+     background-color: white;
+ }
+
+
+ .sec3 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    background-color:#222;;
+  }
+
+
+  .sec3 > div {
+    background-color:#222;;
+    margin: 10px;
+    padding: 30px;
+    color:white;
+    
+  }
+
+
+  .foot {
+      background-color: black;
+  }
+
+
+  #footh3 {
+      padding: 30px;
+      color: white;
+      margin-left: 20px;
+  }
+
+
+.listul {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.list {
+    display:inline-table;
+    padding: 20px;
+  }
+
+
+a {
+      text-decoration: none;
+      padding: 20px;
+ }
+
+
+.foothead {
+      color:orange;
+      padding: 30px;
+      font-size: 20px;
+}
+
+
+.reqsec {
+    background-color: #f6f6f6!important;
+}
+
+#reqsech1 {
+    text-align: center;
+    font-size: 40px;
+    color: #ebb518!important;
+    padding: 80px;
+}
+
+
+.reqsec1 {
+      padding: 10px;
+      position: relative;
+}
+
+nav {
+    top: 0px;
+    display: flex;
+    text-align: center;
+    position: fixed;
+    font-weight: 500;
+    background-color: white;
+    width: 100%;
+    margin: 0px;
+  }
+
+
+.indexcardcontainer h3  {
+    font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+    color:orange;
+    padding: 10px;
+  }
+
+
+.servicebanner { 
+  background-image: url(http://rightturntn.com/wp-content/uploads/2018/01/services-right-turn-banner.jpg);
+  background-size: cover;
+  max-width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  height: 600px;
+  background-attachment:unset;
+  background-blend-mode: overlay;
+
+}
+
+
+.servicebanner12 {
+         font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+         text-align: center;
+         margin: 0px;
+}
+
+
+.servicebanner12 h1 { 
+          padding-top: 320px;
+          font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+          font-weight: 700;
+          font-size: 55px;
+          color: #ffffff;
+          line-height: 1em;
+}
+
+
+.contactbanner { 
+  background-image: url(http://rightturntn.com/wp-content/uploads/2018/01/contact-right-turn-painting.jpg);
+  background-size: cover;
+  max-width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  height: 600px;
+  
+  background-attachment:unset;
+  background-blend-mode: overlay;
+
+}
+
+.contactbanner12{
+          font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+          text-align: center;
+          margin: 0px;
+
+}
+
+
+.contactbanner12 h1 {
+    padding-top: 320px;
+    font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: #ffffff;
+    line-height: 1em;
+}
+
+
+.servicesec1 {
+      margin-bottom: 0;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 45px 0px ;
+      background-color: #f6f6f6;
+  }
+
+
+.servicesec1 h1 {
+    font-size: 35px;
+      color: #ebb518;
+      font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+      font-weight: 200;
+      margin: 0px 111px;
+  }
+
+
+.servicesec2 {
+  align-items: center;
+  margin: 0px 20px;
+}
+
+
+.servicesec21 {
+  padding: 30px 50px ;
+}
+
+
+.servicesec2 h1 {
+    font-family: 'Arial',Helvetica,Arial,Lucida,sans-serif;
+      font-weight: 700;
+      padding-bottom: 10px;
+      color: #333;
+    font-size: 35px;
+  }
+
+
+.servicesec2text {
+    background-color: #ebb518;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    color: white;
+   
+}
+
+
+.servicesec2imge img {
+  width:312px;
+   height:300px;
+  border: 1px solid  #ebb518 ;
+
+}
+
+
+.servicesec2max {
+  margin: 25px 30px ;
+ 
+}
+
+
+.servicesec2min1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+}
+
+
+.servicesec3 {
+  background-position: bottom center;
+  background-image: url(ser7.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.reqsech1b{
+  color: #000000;
+}
+
+.servicesec3min1 { 
+     display: block;
+     background-color:rgba(0,0,0,0.59) ;
+     border: 1px solid #ebb518;
+     padding: 40px;
+     background-size: cover;
+     position: relative;
+    width: 40%;
+    height: 50%;
+    top: 100px;
+    margin-left: 150px;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    text-align: center;
+}
+
+
+.but {
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.but1 {
+    background-color: none; 
+    color: white; 
+    border: 2px solid white;
+}
+
+
+.but1:hover {
+    padding: 15px 40px;
+    border: 0px;
+    background-color: rgba(0,0,0,0.08);
+  }
+
+
+.aboutsec3 {
+      text-align: center;
+      background-color: orange;
+      padding: 40px;
+}
+
+
+.aboutsec3min1 {
+      color: white;
+      font-family: 'Arial',Helvetica,Arial,Lucida,sans-serif;
+      padding: 40px;
+  }
+
+
+.aboutsec3min1 b {
+      color: black;
+  }
+
+
+.butt {
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+.butt1 {
+    background-color: orange; 
+    color: white; 
+    border: 2px solid white;
+  }
+
+
+.butt1:hover {
+    padding: 15px 40px;
+    border: 0px;
+    background-color: rgba(0,0,0,0.08);
+  }
+
+.contactsec1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+}
+
+
+.contactform {
+    padding-left: 10px;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #999;
+    background-color: #eee;
+    font-size: 14px;
+  }
+
+
+  .buttt {
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+  .buttt1 {
+    background-color: white; 
+    color: orange; 
+    border: 2px solid orange;
+  }
+
+
+  .buttt1:hover {
+    padding: 15px 40px;
+    border: 0px;
+    background-color: rgba(0,0,0,0.08);
+  }
+
+
+  .aboutcard {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+    padding: 40px;
+  }
+
+
+  .card {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    padding: 30px;
+  }
+
+
+  .card1 {
+    background-position: bottom center;
+    background-image: url(http://rightturntn.com/wp-content/uploads/2018/01/Wall-Trim-Painting-img.jpg);
+    height: 280px;
+    background-color: rgba(0,0,0,0.5);
+    background-attachment:unset;
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    padding: 30px;
+  }
+
+
+  .card2 {
+      background-position: bottom center;
+      background-image: url(http://rightturntn.com/wp-content/uploads/2018/01/color-change-img.jpg);
+      height: 280px;
+      background-color: rgba(0,0,0,0.5);
+      background-attachment:unset;
+      background-blend-mode: darken;
+      background-size: cover;
+      position: relative;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 18%;
+      padding: 30px;
+    
+  }
+
+
+  .card3 {
+    background-position: bottom center;
+    background-image:url(http://rightturntn.com/wp-content/uploads/2018/01/full-home-painting.jpg);
+    height: 280px;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    background-attachment:unset;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    padding: 30px;
+  
+}
+
+
+.card4 {
+  background-position: bottom center;
+  background-image:url(http://rightturntn.com/wp-content/uploads/2018/01/Wall-Prepping-home-img.jpg);
+  height: 280px;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+  background-attachment:unset;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 18%;
+  padding: 30px;
+
+}
+
+
+.card5 {
+  background-position: bottom center;
+  background-image:url(http://rightturntn.com/wp-content/uploads/2018/01/drywall-repair.jpg);
+  height: 280px;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+  background-attachment:unset;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 18%;
+  padding: 30px;
+
+}
+
+
+.card6 {
+  background-position: bottom center;
+  background-image: url(http://rightturntn.com/wp-content/uploads/2018/01/Stain-sealant-right-turn-painting.jpg);
+  height: 280px;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+  background-attachment:unset;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 18%;
+  padding: 30px;
+
+}
+
+
+.angle {
+  display: none;
+}
+
+
+button:hover span {
+  display: inline;
+}
+
+.indexcardimg {
+    text-align: center;
+    width: 150px;
+    height: 135px;
+    border: 2px solid orange;
+    
+}
+
+
+.indexcardcontainer{
+    padding: 10px;
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    color: orange;
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+
+.cardimg {
+    text-align: center;
+    width: 200px;
+    height: 170px;
+    border: 2px solid orange;
+    border-radius: 75%;
+}
+
+
+.cardimg:hover {
+  border: 2px solid black;
+}
+
+
+.imagecard:hover {
+    color:orange;
+
+}
+
+.indexsec {
+  background-position: bottom center;
+  background-image: url("http://rightturntn.com/wp-content/uploads/2018/01/cta-home.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  transform: translate(0px, 189.769px);
+  background-position: top center;
+  }
+  .indexsectext{
+    padding: 200px;
+  
+  }
+.indexsectexth1{
+  text-align: center; padding: 0px 0px 10px; font-size: 40px; position: relative;
+}
+#contacthr{
+  color: white;
+   width: 200px; 
+   margin-left: 550px;
+}
+
+
+#abouthr{
+  width:200px;
+  text-align:center;
+  margin-left: 600px;
+}
+
+
+#requesthr{
+  width:300px;
+  text-align:center;
+  margin-left: 500px;
+}
+
+#servicehr{
+  color: white;
+   width: 200px; 
+  margin-left: 550px;
+}
+
+
+  @media  screen and (max-width: 600px){
+
+    #abouthr{
+      margin-left: 135px;    width: 55%;
+      padding: 45px;
+    }
+.contactsec1 form{
+  width: 25%;
+}
+    #requesthr{
+      margin-left: 60px;
+    }
+
+    #contacthr{
+      margin-left: 130px;
+    }
+
+    #servicehr{
+      margin-left: 130px;
+    }
+
+    .main1{
+      padding: 0px;
+    margin-left: 120px;
+    }
+
+    nav{
+      position: unset;
+      width: 84%;
+    }
+
+    .innerbanner{
+      width: 360px;
+      height: 370px;
+    }
+
+    #innerbannerimg{
+      width: 330px;
+    }
+
+    .sec1 >h1{
+      padding-left: 125px;
+    }
+
+    .indexsectexth1{
+      font-size: 10px;
+    }
+
+    .indexsectext{
+      padding: 68px;
+    }
+
+    .indexsec{
+      height: 200px;
+    }
+
+    .servicebanner12 h1{
+      padding: 230px;
+      font-size: 38px;
+    }
+
+    #navimg{
+      padding-left: 0px;
+      padding-top: 16px;
+      width: 90px;
+      height: 40px;
+    }
+
+    .foothead{
+      padding: 5px;
+    font-size: 22px;
+    }
+
+    .sec3{
+      grid-template-columns: auto;
+    }
+
+    .servicesec3{
+      height: 300px;
+    }
+
+  .servicesec3min1{
+    top: 20px;
+    margin-left: 95px;
+    height: 40%;
+    padding: 20px;
+  }
+
+  .servicesec1 h1{
+    font-size: 15px;
+    margin: 0px 61px;
+  }
+
+  .servicesec2 h1 {
+    font-size: 20px;
+  }
+
+  .servicesec2min1{
+    flex-direction: column;
+    margin-left: 33px;
+  }
+
+  .servicesec2max {
+    margin: 20px 0px;
+  }
+
+.servicesec2text{
+  width: 275px;
+}
+
+.contactsec1{
+  grid-template-columns: auto;
+}
+
+
+.aboutcard{
+  flex-direction: column;
+  padding: 30px;
+}
+
+.card{
+  width: 40px;
+}
+.card1{
+  width: 55%;
+  padding: 45px;
+}
+.card2{
+  width: 55%;
+  padding: 45px;
+}
+.card3{
+  width: 55%;
+  padding: 45px;
+}
+.card4{
+  width: 55%;
+  padding: 45px;
+}
+.card5{
+  width: 55%;
+  padding: 45px;
+}
+.card6{
+  width: 55%;
+  padding: 45px;
+}
+
+.mainindex{
+  height: 50px;
+  padding: 10px;
+}
+.mainindex a{
+  font-size: 10px;
+  padding: 16px;
+}
+
+  }
+
+
+  @media  screen and (max-width: 1200px){
+
+    #abouthr{
+      margin-left: 135px;    width: 55%;
+      padding: 0px;
+    }
+
+    #requesthr{
+      margin-left: 60px;
+    }
+
+    #contacthr{
+      margin-left: 130px;
+    }
+
+    #servicehr{
+      margin-left: 130px;
+    }
+
+    .main1{
+      padding: 0px;
+    margin-left: 120px;
+    }
+
+    nav{
+      position: unset;
+      width: 84%;
+    }
+
+    .innerbanner{
+      width: 360px;
+      height: 370px;
+    }
+
+    #innerbannerimg{
+      width: 330px;
+    }
+
+    .sec1 >h1{
+      padding-left: 125px;
+    }
+
+    .indexsectexth1{
+      font-size: 10px;
+    }
+
+    .indexsectext{
+      padding: 68px;
+    }
+
+    .indexsec{
+      height: 200px;
+    }
+
+    .servicebanner12 h1{
+      padding: 230px;
+      font-size: 38px;
+    }
+
+    #navimg{
+      padding-left: 0px;
+      padding-top: 16px;
+      width: 90px;
+      height: 40px;
+    }
+
+    .foothead{
+      padding: 5px;
+    font-size: 22px;
+    }
+
+    .sec3{
+      grid-template-columns: auto;
+    }
+
+    .servicesec3{
+      height: 300px;
+    }
+
+  .servicesec3min1{
+    top: 20px;
+    margin-left: 95px;
+    height: 40%;
+    padding: 20px;
+  }
+
+  .servicesec1 h1{
+    font-size: 15px;
+    margin: 0px 61px;
+  }
+
+  .servicesec2 h1 {
+    font-size: 20px;
+  }
+
+  .servicesec2min1{
+    flex-direction: column;
+    margin-left: 33px;
+  }
+
+  .servicesec2max {
+    margin: 20px 0px;
+  }
+
+.servicesec2text{
+  width: 275px;
+}
+
+.contactsec1{
+  grid-template-columns: auto;
+}
+
+
+.aboutcard{
+  flex-direction: column;
+  padding: 30px;
+}
+.card{
+  width: 40px;
+}
+.card1{
+  width: 55%;
+  padding: 45px;
+}
+.card2{
+  width: 55%;
+  padding: 45px;
+}
+.card3{
+  width: 55%;
+  padding: 45px;
+}
+.card4{
+  width: 55%;
+  padding: 45px;
+}
+.card5{
+  width: 55%;
+  padding: 45px;
+}
+.card6{
+  width: 55%;
+  padding: 45px;
+}
+
+  }
+
+  
